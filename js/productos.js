@@ -4,7 +4,7 @@ createApp({
     data(){             //Sirve para definir los atributos que necesitamos
         return{
             productos: [],      //Lista de productos inicializada en cero
-            url: 'http://127.0.0.1:5000/productos',     //url de la api
+            url: 'https://viviana2008.pythonanywhere.com/productos',     //url de la api
             cargando: true,         //Cundo los está buscando, es true porq en principio los busca
             error: false        //Por si no encuentra los datos de la api, en principio va ser false. si no encuentra se vuelve true
         }
