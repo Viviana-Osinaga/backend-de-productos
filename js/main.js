@@ -29,3 +29,15 @@ document.getElementById('header').innerHTML = `<nav class="navbar navbar-expand-
 </div>
 </nav>` 
 //aplicará todos los estilos a todos los documentos html que tengan el mismo id
+
+// LogIn
+// function loguear() {
+//   let useremail = document.getElementById("useremail").value;
+//   let pass = document.getElementById("clave").value;
+//   if(useremail=="usermail@gmail.com" && pass=="1234") {
+//     window.location="productos.html";
+//   }
+//   else{
+//     alert("Email o Contraseña incorrectos!")
+//   }
+// }

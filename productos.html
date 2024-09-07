@@ -54,7 +54,7 @@
                     <img :src="p.imagen" :alt="p.nombre" width="80" height="80">
                   </td>
                   <td>
-                    <a class="btn btn-outline-primary" :href="'producto_editar.html?id='+p.id+'&nombre='+p.nombre+'&precio='+p.precio+'&stock='+p.stock+'&imagen='+p.imagen">Editar</a>
+                    <a class="btn btn-outline-primary m-1" :href="'producto_editar.html?id='+p.id+'&nombre='+p.nombre+'&precio='+p.precio+'&stock='+p.stock+'&imagen='+p.imagen">Editar</a>
                     <button type="button" class="btn btn-outline-danger" v-on:click="eliminar(p.id)">Eliminar</button>  <!--no usar delete porque rompe-->
                   </td>
                 </tr>
