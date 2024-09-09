@@ -16,7 +16,7 @@
   <header id="header"></header>
 
   <main>
-    <div id="app" class="container  col-xs-3 col-sm-12">
+    <div id="app" class="container col-xs-3 col-sm-12">
       <h1>Productos</h1>
       <section v-if="error">  <!--no usar un alert no es buena experiencia de usuario-->
         <p>Lo sentimos, no podemos mostrarte los datos solicitados en este momento</p>
@@ -32,8 +32,8 @@
         </section>
         <section v-else>
           <a class="btn btn-outline-success" href="producto_nuevo.html">Agregar producto</a> <!--bs5-button-default-->
-          <div class="table-responsive mt-3"> <!--bs5-table-default-->
-            <table class="table table-primary table-hover table-responsive">
+          <div class="table-responsive mt-3 table-responsive-sm"> <!--bs5-table-default-->
+            <table class="table table-primary table-hover ">
               <thead>
                 <tr>
                   <th scope="col">Id</th>
